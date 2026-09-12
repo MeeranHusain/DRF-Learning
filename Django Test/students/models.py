@@ -21,3 +21,6 @@ class Student(models.Model):
     # Status
     is_active = models.BooleanField(default=True)
     
+    # any function that is called inside the class is called a member function or methods.
+    # def __str__(self):
+    #     return f"id {self.id}: {self.first_name} {self.last_name}" 
